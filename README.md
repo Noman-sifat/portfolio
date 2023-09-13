@@ -231,22 +231,22 @@ Eg:
 
 ```javascript
 export const headerData = {
-  name: "-- YOUR NAME --",
-  title: "-- YOUR TITLE --",
-  desciption: "-- DESCRIPTION --",
-  image: "-- IMAGE --",
-  resumePdf: "",
+  name: '-- YOUR NAME --',
+  title: '-- YOUR TITLE --',
+  desciption: '-- DESCRIPTION --',
+  image: '-- IMAGE --',
+  resumePdf: '',
 };
 
 // You can also import image and PDF from assets as shown below
 
-import resume from "../assets/pdf/resume.pdf";
-import profileImg from "../assets/png/profileImg";
+import resume from '../assets/pdf/resume.pdf';
+import profileImg from '../assets/png/profileImg';
 
 export const headerData = {
-  name: "-- YOUR NAME --",
-  title: "-- YOUR TITLE --",
-  desciption: "-- DESCRIPTION --",
+  name: '-- YOUR NAME --',
+  title: '-- YOUR TITLE --',
+  desciption: '-- DESCRIPTION --',
   image: profileImg,
   resumePdf: resume,
 };
@@ -279,10 +279,10 @@ export const headerData = {
 export const educationData = [
   {
     id: 1,
-    institution: "-- INSTITUTION NAME --",
-    course: "-- COURSE NAME --",
-    startYear: "2017",
-    endYear: "2019",
+    institution: '-- INSTITUTION NAME --',
+    course: '-- COURSE NAME --',
+    startYear: '2017',
+    endYear: '2019',
   },
   //
 ];
@@ -441,3 +441,5 @@ export const educationData = [
 
 
 <br /> -->
+
+this file is importent
